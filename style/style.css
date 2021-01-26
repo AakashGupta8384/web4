@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background: rgb(125, 136, 136);
+    padding: 10px;
+    
+    
+
+}
+.navbar ul :hover{
+    background: whitesmoke;
+    color: slateblue;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-wrap: wrap;
+    
+}
+.navbar ul a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    font-size: large;
+
+
+}
+.about,.nav2bar li {
+    position: relative;
+}
+.div-main{
+    display: flex;
+}
+.logo img {
+    /* display: flex;
+    justify-content: center;
+    width:6%;
+    margin-top: 0.7% ;
+    align-items: center;
+    flex-direction: row-reverse; */
+    margin-top: 0.7%;
+    width: 100%;
+    padding:10px 10px;
+
+}
+.logo{
+    width: 15%;
+
+}
+.nav2bar{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background:rgb(43, 112, 241);
+    padding: 10px;
+    
+
+}
+.nav2bar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-wrap: wrap;
+}
+
+
+.nav2bar ul :hover{
+    background-color: black;
+}
+.navbar2{
+    height: 140px;
+}
+.nav2bar ul a{
+    text-decoration: none;
+    color: rgb(234, 247, 236);
+    padding: 10px 10px;
+    font-size: large;
+    overflow: auto;
+    position: relative;
+    float: left;
+
+
+
+}
+.nav2bar li ul li{
+    text-align: row;
+}
+.active,.nav2bar ul :hover{
+    background-color: black;
+}
+
+
+.text{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.vission h1{
+    text-align: center;
+}
+.vission p{
+    font-size: large;
+}
+
+.mission h1{
+    text-align: center;
+}
+.mission p {
+    font-size: large;
+}
+.contect  h1{
+    text-decoration: underline;
+    
+
+}
+.contect{
+    background: lightgray;
+    height: 12vw;
+}
+.hr{
+    margin-top: 10px;
+}
+.footer{
+    background: darkgrey;
+    text-align: center;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+}
+.footer p {
+    margin-top: 15px;
+
+}
+.notice-left{
+    width: 75vw;
+}
+.notice-right{
+    width: 25vw;
+    text-align: center;
+    font-size: 25px;
+}
+.notice-right ul {
+    text-decoration: none;
+    list-style: none;
+    background-color: blanchedalmond;
+}
+.menubarnav{
+    display:flex;
+    background: rgb(12, 82, 27);
+   padding: 10px 15px;
+   width: 36%;
+   
+
+}
+ .menubarnav ul li :hover{
+    background-color: black;
+}
+.menubarnav ul a {
+    text-decoration: none;
+    color:whitesmoke;
+    padding: 10px 10px;
+    font-size: large;
+    margin-left: auto;
+
+}
+.menubarnav ul{
+    display: flex;
+    list-style: none;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.news  ul a {
+    text-decoration: none;
+    
+}
+.news{
+    margin-left: 30px;
+    overflow: auto;
+    height: 200px;
+    border-bottom: solid black 4px;
+}
+
+    
+}
+.news ul{
+    list-style: none;
+}
+.news h1{
+    font-size: 25px;
+}
+.notice{
+    display: flex;
+}
+.web{
+    background-color: black;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+
+}
+.central:hover{
+    background-color: rgb(196, 189, 189);
+}
+.other{
+    background-color: black;
+    color: white;
+}
+.computer:hover{
+    background-color:rgb(196, 189, 189); 
+}
+.trng:hover{
+    background-color:rgb(196, 189, 189); 
+}
+.and:hover{
+    background-color: rgb(196, 189, 189);
+}
+.it:hover{
+    background-color: rgb(196, 189, 189);
+}
+.icon{
+    width: 30px;
+}
+.news ul{
+    font-size: 20px;
+}
